@@ -104,7 +104,7 @@
                 
                 // add logs.
                 [appDelegate addLog:@"Subscription Success!"];
-                [appDelegate addLog:[NSString stringWithFormat:@"Subscription State: %lu", state]];
+                [appDelegate addLog:[NSString stringWithFormat:@"Subscription State: %u", state]];
                 
                 // move to the message tab.
                 [appDelegate moveToTab:1];

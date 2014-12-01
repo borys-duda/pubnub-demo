@@ -108,7 +108,7 @@
         
         NSCalendar          *calendar = [NSCalendar currentCalendar];
         NSDateComponents    *components = [calendar components:(NSHourCalendarUnit | NSMinuteCalendarUnit) fromDate:self.data.date];
-        NSString            *dateString = [NSString stringWithFormat:@"%02ld:%02ld", [components hour], [components minute]];
+        NSString            *dateString = [NSString stringWithFormat:@"%02ld:%02ld", (long)[components hour], (long)[components minute]];
         
         self.dateText.text = dateString;
         self.dateText.font = [UIFont systemFontOfSize:12];
