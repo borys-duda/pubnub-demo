@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MessageViewController viewWillAppear:]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "gCurrentChannel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[Global setNavigationTitle:width:target:]:Global.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "target.navigationItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController viewDidLoad]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "gMessages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController bubbleTableView:dataForRow:]:MessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController rowsForBubbleTable:]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.messageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[Global PubNub_sendMessage:sender:]:Global.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate addMessage:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.window.rootViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.window">
+            </PersistentString>
+            <PersistentString
+               value = "vc.tabBarItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController addMessage:]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "gMessages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChannelViewController viewDidLoad]:ChannelViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIBubbleTableViewCell drawText:inImage:atPoint:]:UIBubbleTableViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "image.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
